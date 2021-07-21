@@ -2,7 +2,7 @@
 @import url(font.css);
 
 /* Import variables from variables.css */
-@import url(./partials/variables.css);
+@import url(variables.css);
 
 
 
