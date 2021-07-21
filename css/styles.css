@@ -1,0 +1,53 @@
+/* Import fonts from font.css */
+@import url(font.css);
+
+/* Import variables from variables.css */
+@import url(./partials/_variables.css);
+
+/* Import Variables */
+@import url(./partials/_variables.css);
+
+/* Nav Bar */
+
+.header-area .navbar .container .nav {
+    color: blue;
+    font-family: var(--Italianno);
+    font-size: 4rem;
+
+}
+
+.header-area .navbar .container .nav:hover {
+    color: var(--primary-color2);
+}
+
+/* Site banner */
+
+.site-banner {
+    background: url(../img/home-banner.png) no-repeat 0% 0%;
+}
+
+/* Projects area */
+
+.card .card-body a {
+    padding: .8rem 2.2rem;
+    font: normal 500 16px/20px var(--roboto);
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+
+}
+
+.card .card-body a:hover {
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+    border-color: rgb(171, 37, 189);
+    border-radius: 4px;
+
+}
