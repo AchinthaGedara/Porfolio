@@ -24,13 +24,18 @@
 
 .site-banner {
     background: url(../img/home-banner.png) no-repeat 0% 0%;
+    max-height: 500px;
+    padding-top: 15%;
 }
 
 /* Projects area */
+.card {
+    border-color: rgb(199, 194, 194);
+}
 
 .card .card-body a {
     padding: .8rem 2.2rem;
-    font: normal 500 16px/20px var(--roboto);
+    font: normal 100 15px/20px var(--roboto);
     position: relative;
     border: 3px solid transparent;
     border-radius: 4px;
@@ -50,4 +55,11 @@
     border-color: rgb(171, 37, 189);
     border-radius: 4px;
 
+}
+
+.projects-heading {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: var(--apple);
+    text-decoration: underline;
 }
